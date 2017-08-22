@@ -1,1 +1,158 @@
-hellos
+<!DOCTYPE html>
+<html>
+<title>Rob.Haus</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+    p {color:ghostwhite;}
+    .w3-row-padding img {margin-bottom: 12px}
+    .w3-sidebar {width: 120px;background: #282155;}
+    #main {margin-left: 120px}
+    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body background = "rab-page.jpg">
+<!-- This is for the website background-->
+
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+    <!-- Avatar image in top left corner -->
+    <img src="memer2.png" style="width:100%">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+        <i class="fa fa-home w3-xxlarge"></i>
+        <p>HAUS</p>
+    </a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <i class="fa fa-user-circle-o w3-large"></i>
+        <p>About Me</p>
+    </a>
+    <a href="#gallery" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <i class="fa fa-file-code-o w3-large"></i>
+        <p>Gallery</p>
+    </a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <i class="fa fa-envelope w3-large"></i>
+        <p>Contact</p>
+    </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+        <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+        <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+        <a href="#gallery" class="w3-bar-item w3-button" style="width:25% !important">GALLERY</a>
+        <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+    </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+    <!-- Header/Home -->
+    <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+        <img src="memer.png" alt="me" class="image" width="15%" height="10%">
+        <h1 class="w3-jumbo"><span class="w3-hide-small"></span> Robert Goodeve</h1>
+        <p>Bon Vivant and Programmer Extraordinaire!</p>
+
+    </header>
+
+    <!-- About Section -->
+    <div class="w3-content w3-justify w3-text-light-grey w3-padding-64" id="about">
+        <h2 class="w3-text-light-grey">About Robert</h2>
+        <hr style="width:200px" class="w3-opacity">
+        <p>My favored languages are Python, Matlab, and JS.
+
+            Currently: getting my toes wet with OpenGL and html.
+            I enjoy music of too many genres, books of the literary variety, and long conversations.
+        </p>
+        <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+        <p class="w3-wide">Programming</p>
+        <div class="w3-white">
+            <div class="w3-dark-grey" style="height:28px;width:92%"></div>
+        </div>
+        <p class="w3-wide">Web Design</p>
+        <div class="w3-white">
+            <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+        </div>
+        <p class="w3-wide">Business</p>
+        <div class="w3-white">
+            <div class="w3-dark-grey" style="height:28px;width:72%"></div>
+        </div>
+        <br>
+
+           <form method="get" action="Robert Goodeve Resume1.pdf">
+            <button class="w3-button w3-light-grey w3-section">
+                <i class="fa fa-download"></i> Download Resume
+            </button>
+           </form>
+    </div>
+</div>
+
+<!-- Portfolio Section -->
+<div class="">
+    <div class="w3-padding-64 w3-content" id="gallery">
+        <h2 class="w3-text-light-grey">My Gallery</h2>
+        <hr style="width:200px" class="w3-opacity">
+
+        <!-- Grid for photos -->
+        <div class="w3-row-padding" style="margin:0 -16px">
+            <!-- change these to canvas elements for small algos-->
+            <div class="w3-half">
+                <!-- this one for color generator-->
+
+                <!-- this one for gnuplot imaginary number gen?-->
+
+            </div>
+    
+            <div class="w3-half">
+                <!-- maybe direct host python stock algo-->
+
+                <!-- what am I listening to?-->
+
+            </div>
+        </div>
+        <!-- End Portfolio Section -->
+    </div>
+</div>
+
+    <!-- Contact Section -->
+    <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+        <h2 class="w3-text-light-grey">Contact Me</h2>
+        <hr style="width:200px" class="w3-opacity">
+
+        <div class="w3-section">
+            <p><i class="fa fa-phone fa-3x w3-text-white w3-xxxlarge w3-margin-right"></i> Phone: +01 813 447 0861</p>
+            <p><i class="fa fa-envelope fa-3x w3-text-white w3-xxxlarge w3-margin-right"> </i> Email: goodeve@rob.haus</p>
+            <p> <i class="fa fa-linkedin fa-3x w3-hover-opacity w3-xxlarge w3-margin-right">  <a href="https://www.linkedin.com/in/robert-goodeve/" target="_blank" class="w3-hover-text-white"> Connect with me</a> </i></p>
+        </div><br>
+        <p>Lets get in touch. Send me a message:</p>
+
+        <form action="/emailer.py" target="_blank">
+            <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+            <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+            <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+            <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+            <p>
+                <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+                    <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                </button>
+            </p>
+        </form>
+        <!-- End Contact Section -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-content w3-padding-64 w3-text-white w3-xlarge">
+        <p class="w3-medium">Powered by w3css, Python, and Git</p>
+        <!-- End footer -->
+    </footer>
+
+    <!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
