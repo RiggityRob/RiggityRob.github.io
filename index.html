@@ -291,8 +291,6 @@ for row in rows:
     dept = erows["DEPARTMENT"]
     print(dept)
     deptfilename = f"{dept.replace(': ','-')}.csv"
-    # Override To header for testing
-    # to = ['"Chris Nolin" <cnolin@andrew.cmu.edu>']
 
     # Generate EmailGroup/Department CSV
     with open(deptfilename, "a", newline="") as deptcsvfile:
